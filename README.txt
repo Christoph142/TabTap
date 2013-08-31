@@ -1,0 +1,1 @@
+TabTap lets you open a new tab by double-tapping an empty area on a page

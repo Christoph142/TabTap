@@ -1,0 +1,22 @@
+{	
+	"name"				: "TabTap",
+	"description"		: "Open a new tab by double-tapping an empty area on a page",
+	"developer"			: {"name" : "Christoph D."},
+	"homepage_url"		: "http://my.opera.com/christoph142/blog",
+	
+	"version"			: "1.0",
+	"icons"				: { "48": "images/48.png", "128": "images/128.png" },
+	
+	"content_scripts" :
+	[{
+		  "matches"		: ["<all_urls>"],
+		  "js"			: ["includes/TabTap.js"],
+		  "run_at"		: "document_start",
+		  "all_frames"	: true
+	}],
+	
+	"background"		: {"scripts": ["background.js"]},
+	"permissions"		: ["tabs"],
+	
+	"manifest_version"	: 2
+}
