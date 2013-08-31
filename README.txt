@@ -1,1 +1,1 @@
-TabTap lets you open a new tab by double-tapping an empty area on a page
+TabTap is a Chromium extension that lets you open a new browser tab by double-tapping an empty area on a page
